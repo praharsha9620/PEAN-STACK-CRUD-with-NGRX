@@ -1,0 +1,73 @@
+.card3{
+    padding-left: 20%;
+    padding-right: 40%;
+}
+.card2{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.card4{
+    padding-left: 42%;
+    padding-right: 30%;
+}
+
+.btn {
+    background-color: transparent;
+    box-shadow: 0.8px 0.8px rgba(0, 0, 0, 0.6);
+    border-width: 0px;
+    line-height: 2px;
+
+}
+.padding-bottom-3 {
+    padding-bottom: 3px;
+    line-height: 2px;
+}
+
+.vertical-align-middle { 
+  vertical-align: bottom; 
+  line-height: 1px;
+}
+.mat-toolbar.mat-primary {
+    background: #4ba1fd;
+    color: #fff;
+    line-height: 1px;
+
+  }
+
+ 
+
+  .btn3{
+    background: #4ba1fd;
+    color: #fff;
+    border-width: 0px;
+  }
+
+  .mat-icon-button:hover .mat-button-focus-overlay {
+    opacity: 1 !important;
+  }
+
+  .padding-bottom-5 {
+    padding-bottom: 6px;
+    line-height: 2px;
+    inline-size: 1px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.inline-icon {
+  vertical-align: bottom;
+  font-size: 18px !important;
+}
+
+.valign-center {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  float: right;
+}
+
+.align1{
+  text-align: center;
+vertical-align: middle;
+line-height: 30px;
+}

@@ -1,0 +1,60 @@
+.card {
+    background-color:#ffffff		;
+}
+
+.btn1{
+    background-color: #67b8ff;
+}
+
+.card {
+    background-color:#ffffff	;
+}
+.trend-dialog .mat-dialog-container{
+    overflow-y:auto;
+  }
+
+  div{
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.gridListdemoBasicUsage md-grid-list {
+    margin: 8px; }
+  
+
+  .example-form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+      }
+      
+      .example-full-width {
+        width: 100%;
+      }
+      .mat-form-field-label {
+        white-space: normal;
+      }
+      
+      textarea.mat-input-element {
+        padding: 0px 0;
+        margin: 5px 0;
+      }
+      
+      .mat-input-placeholder {
+        white-space: normal;
+      }
+/* .card-size{
+    height: 500px;
+    width: 500px;
+    margin-left: 30%;
+
+} */
+.tp-container {
+    display: flex;
+    flex-direction: column;
+ }
+ .tp-container > * {
+    width: 100%;
+ }

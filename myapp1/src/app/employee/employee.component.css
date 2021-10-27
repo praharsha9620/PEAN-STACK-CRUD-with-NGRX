@@ -1,0 +1,99 @@
+body{
+    padding-bottom: 10%;
+    margin-bottom: 10px;
+}
+
+
+
+.custom-modalbox{ 
+    border: none !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    overflow: hidden;
+
+  }
+
+
+/* mat-icon{
+    justify-self: end;
+    display: inline-flex;
+    vertical-align: middle;
+} */
+
+
+  .m1{
+        padding-left: 37%;
+        padding-right: 40%;
+  }
+
+  .fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+ 
+  .btn-accent, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: pink;
+}
+
+
+
+.btn7 {
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  border-width: 0px;
+
+}
+.padding-bottom-3 {
+  padding-bottom: 3px;
+  line-height: 2px;
+}
+
+.vertical-align-middle { 
+vertical-align: bottom; 
+line-height: 1px;
+}
+.mat-toolbar {
+  background: #4ba1fd;
+  color: #fff;
+  line-height: 1px;
+
+}
+
+.btn3{
+  background: #4ba1fd;
+  color: #fff;
+  border-width: 0px;
+}
+
+.mat-icon-button:hover .mat-button-focus-overlay {
+  opacity: 1 !important;
+}
+
+
+.padding-bottom-5 {
+  padding-bottom: 6px;
+  line-height: 2px;
+  inline-size: 1px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.inline-icon {
+vertical-align: bottom;
+font-size: 18px !important;
+}
+
+.valign-center {
+display: inline-flex;
+vertical-align: middle;
+align-items: center;
+float: right;
+}
+
+.example-spacer{
+  flex:1 1 auto;
+}
+
+.trend-dialog .mat-dialog-container{
+  overflow-y: hidden !important;
+}
+

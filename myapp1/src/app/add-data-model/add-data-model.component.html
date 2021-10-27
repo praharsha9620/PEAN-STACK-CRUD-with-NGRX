@@ -1,0 +1,81 @@
+ <!-- <div class="card card-size"> -->
+ <!-- <div class="card-content white-text container-fluid card"> -->
+   
+  
+    <div class="row">
+      <div class="col s5">
+        <mat-dialog-content>
+        <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()" >
+          <input type="hidden" name="_id">
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" name="name"  formControlName="name"required>
+              <label>Name :
+                <label class="red-text">*</label>
+              </label>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" name="address"  formControlName="address" >
+              <label>Address :</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" name="Email" formControlName="email" required> 
+              <label>Email :
+                <label class="red-text">*</label>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" name="state1"   formControlName="state" required>
+              <label>State :
+                <label class="red-text">*</label>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <label>City :
+                <label class="red-text">*</label>
+              </label>
+              <input type="text" name="city"  formControlName="city" required>
+            </div>
+          </div>
+
+           <div class="row">
+            
+            <div class="input-field col s12">
+              <label>Department :
+                <label class="red-text">*</label>
+              </label>
+              <br>
+              <br>
+              <div class="input-field col s12">
+              <mat-select formControlName="d_id" required> 
+                <mat-option>None</mat-option>
+                <mat-option value="1">ASM</mat-option>
+                <mat-option value="2">ASP</mat-option>
+                <mat-option value="3">Devops</mat-option>
+              </mat-select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <button class="btn  right  btn-custom "  type="button"  (click)="onReset()">Reset</button>
+              <button class="btn  right btn-custom btn1 " type="submit" [mat-dialog-close]="true" [disabled]="!employeeForm.valid">Submit</button>
+            </div>
+          </div>
+        </form>
+      <!-- </div> -->
+      </mat-dialog-content>
+  </div>
+</div>
