@@ -1,6 +1,6 @@
 
 <mat-toolbar color="primary">
-
+<div fxLayout="row" fxLayoutAlign="flex-end center" style="width: 100%;">
   <button style="margin:2px;" class= "btn3 vertical-align-middle"  (click)="onLogin();">
       <mat-icon aria-hidden="false" aria-label="Example home icon" >home</mat-icon>
   </button>
@@ -8,17 +8,22 @@
   <span class="example-spacer"></span>
     <span class="mat-body">{{userName}}</span>
     <button mat-button  class="btn3" (click)="onLogout()"><mat-icon>logout</mat-icon></button>
+</div>
   </mat-toolbar>
+
+
  <br>
  <br>
-<div class=" container" layout="row" layout-align="center">
+
+
+<div class=" container"  fxLayout="column" fxLayoutAlign="center">
   <div class="center">
 
       <div class="container m1" layout="row" layout-align="center">
           <input class ="fontAwesome" matInput (keyup)="applyFilter($event)" placeholder="&#xF002; Search" #input>
       </div>
       <br>
-<div class="mat-elevation-z4" layout="row" layout-align="center">
+<div class="mat-elevation-z4" fxLayout="column" fxLayoutAlign="center">
   <table mat-table matSort [dataSource]="dataSource" (matSortChange)="customSort($event)">
       <ng-container matColumnDef="name">
           <th mat-header-cell mat-sort-header *matHeaderCellDef > Name </th>

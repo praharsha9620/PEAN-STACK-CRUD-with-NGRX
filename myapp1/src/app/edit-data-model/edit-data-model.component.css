@@ -10,7 +10,12 @@
 }
 
 body{
-    
+    display: flex;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .card-size{
     height: 450px;

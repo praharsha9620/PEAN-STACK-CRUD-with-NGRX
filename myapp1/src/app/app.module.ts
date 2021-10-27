@@ -43,6 +43,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { DeleteEmployeeEffects } from './shared/effects/deleteEmp.effects';
 import { UpdateEmployeeEffects } from './shared/effects/updateEmp.effects';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -63,6 +64,7 @@ import { UpdateEmployeeEffects } from './shared/effects/updateEmp.effects';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
+    FlexLayoutModule,
     HttpClientModule,
     NgbModule,
     MatIconModule,
