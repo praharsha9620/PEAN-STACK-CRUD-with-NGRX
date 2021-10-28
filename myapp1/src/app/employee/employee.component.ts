@@ -101,7 +101,6 @@ export class EmployeeComponent implements AfterViewInit {
     });
     this.store.dispatch(EmpActions.LoadEmp({name:this.params.sortField,direction:this.params.sortDirection,Offset1:this.params.pageIndex,Size1:this.params.pageSize}));
 
-    this.user1=this.userservice.getEmployee();
     this.userName=this.userservice.getName();
     // this.initializeData();
     // this.getData2();

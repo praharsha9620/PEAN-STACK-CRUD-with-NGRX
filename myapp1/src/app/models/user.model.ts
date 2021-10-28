@@ -16,7 +16,6 @@ export class Login {
 
 }
 
-
 export class signin {
     email: string;
     password: string;

@@ -4,8 +4,8 @@
 
 export const environment = {
     production: false,
-    apiBaseUrl1: 'http://localhost:3000/authenticate',
-    apiBaseUrl: 'http://localhost:3000/employee'
+    REST_API:'http://localhost:3000/employee',
+    REST_API_AUTH:'http://localhost:3000/authenticate',
 
   };
 
