@@ -158,12 +158,11 @@ export class UserService {
 
   isLoggedIn() {
     var userPayload = this.getUserPayload();
-    userPayload
-    localStorage.setItem('uname',userPayload.username);
     
     if (userPayload)
     {        
           // return true;
+        localStorage.setItem('uname',userPayload.username);
         return this.x > Date.now() / 1000;
     }
     else

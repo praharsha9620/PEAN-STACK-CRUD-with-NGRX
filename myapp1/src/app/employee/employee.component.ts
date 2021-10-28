@@ -216,7 +216,10 @@ this.store.select(getEmpCount).subscribe( emp=>{
 
   onLogout(){
     this.userservice.deleteToken();
-    this.router.navigate(['/login']);
+     this.route.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+   this.route.navigate(['\login']);
+   console.log("refreshed");
+ });
   }
 }
 

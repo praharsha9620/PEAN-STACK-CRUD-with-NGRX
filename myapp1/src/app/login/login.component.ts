@@ -27,7 +27,10 @@ export class LoginComponent implements OnInit {
   serverErr:any
   ngOnInit() {
     if(this.userService.isLoggedIn())
-    this.router.navigateByUrl('/details');
+    {
+      this.router.navigateByUrl('/details');
+
+    }
   }
   onLogin(){
     this.router.navigateByUrl("/");
