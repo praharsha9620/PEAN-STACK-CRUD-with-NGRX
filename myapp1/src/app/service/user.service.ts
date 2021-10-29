@@ -108,8 +108,10 @@ export class UserService {
 
   //Helper Methods
   setTimer(time1:number){
+      
       this.x=Date.now()+time1;
     // console.log(this.x);   
+      
   }
 
   setToken(token: string) {
@@ -138,6 +140,7 @@ export class UserService {
   }
 
   isLoggedIn() {
+    
     var userPayload = this.getUserPayload();
     
     if (userPayload)

@@ -6,6 +6,8 @@ const bcrypt = require ("bcryptjs")
 const jwt = require("jsonwebtoken")
 const SECRET = "dummy";
 const exp=6000000000000;
+// const exp="2m";
+
 
 router
 // .get('/', async function (req, res) {

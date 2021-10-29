@@ -31,11 +31,12 @@ export class DeletePopupComponent implements OnInit {
     // this.employeeService.deleteEmployee(id).subscribe();
     this.dialogRef.close()
     this.store.dispatch(EmpAction.LoadEmp({name:this.params.sortField,direction:this.params.sortDirection,Offset1:this.params.pageIndex,Size1:this.params.pageSize}));
+    this.store.dispatch(EmpAction.pageChange({name:this.params.sortField,direction:this.params.sortDirection,Offset1:this.params.pageIndex,Size1:this.params.pageSize}))
 
-    let currentUrl = this.route.url;
-    this.route.navigateByUrl('/', {skipLocationChange: true}).then(() => {
-        this.route.navigate([currentUrl]);
-    });
+    // let currentUrl = this.route.url;
+    // this.route.navigateByUrl('/', {skipLocationChange: true}).then(() => {
+        // this.route.navigate([currentUrl]);
+    // });
 
   }
 

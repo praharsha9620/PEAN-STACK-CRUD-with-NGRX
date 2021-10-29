@@ -65,6 +65,7 @@ export class AddDataModelComponent implements OnInit {
 
       this.employeeForm.reset();
       this.store.dispatch(EmpActions.LoadEmp({name:this.params.sortField,direction:this.params.sortDirection,Offset1:this.params.pageIndex,Size1:this.params.pageSize}));
+      this.store.dispatch(EmpActions.pageChange({name:this.params.sortField,direction:this.params.sortDirection,Offset1:this.params.pageIndex,Size1:this.params.pageSize}))
 
       // let currentUrl = this.route.url;
       // this.route.navigateByUrl('/', { skipLocationChange: true }).then(() => {
